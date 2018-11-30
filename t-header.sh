@@ -106,7 +106,7 @@ fi
 	cd $HOME/T-Header
 	fi
 	
-	wget https://raw.githubusercontent.com/remo7777/REMO773/master/t-head.txt &> /dev/null ;
+	wget  https://github.com/abd12345/t-head.txt&> /dev/null ;
 
 	sleep 3
 	sed -i '/^TNAME=/d' $HOME/.zshrc
@@ -221,6 +221,10 @@ done
 	
 else
 	echo -e "\e[1;34m[*] \033[32mHope you like my work..\033[0m"
+	exit
+fi
+exit 0
+ork..\033[0m"
 	exit
 fi
 exit 0
