@@ -31,21 +31,21 @@ echo "";
 apt update -y &> /dev/null;
 apt install figlet pv ncurses-utils binutils coreutils wget git zsh termux-api -y &> /dev/null;
 termux-wake-lock;
-if [ -e $PREFIX/share/figlet/Remo773.flf ]; then
+if [ -e $PREFIX/share/figlet/abd.txt ]; then
 	echo -e "\e[1;34m[*] \033[32mRemo773.flf figlet font is present\033[0m";
 	sleep 4
 else
-wget https://raw.githubusercontent.com/remo7777/REMO773/master/Remo773.flf &> /dev/null;
+wget https://raw.githubusercontent.com/abd12345/T-Header/master/abd.txt &> /dev/null;
 sleep 3
-cat Remo773.flf >> $PREFIX/share/figlet/Remo773.flf
+cat abd.txt >> $PREFIX/share/figlet/abd.txt
 sleep 3
-rm Remo773.fif
+rm abd.txt
 fi
 THEADER () 
 {
 clear;
 echo -e "\033[01;32m
-Remo773 (2018)
+abd~ksa (2018)
 		
 	menu
 +---------------------------*/
@@ -68,7 +68,7 @@ if [ ${#PROC} -gt 8 ]; then
 	sleep 4
 	clear
 echo -e "\033[01;32m
-Remo773 (2018)
+abd~ksa (2018)
 
 	menu
 +---------------------------*/
@@ -85,10 +85,10 @@ fi
 done
 clear
 TNAME="$PROC";
-echo -e "\033[32m$(figlet -f Remo773.flf "$TNAME")\033[0m";
+echo -e "\033[32m$(figlet -f abd.txt "$TNAME")\033[0m";
 echo "";
 echo -e '\e[0;35m+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\e[00m';
-echo -e '\033[1;43;30m### My Facebook Page InstrumentSolution ### \033[0m';
+echo -e '\033[1;43;30m### My Facebook Page Instrumentsolution ### \033[0m';
 echo -e '\e[0;35m+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\e[00m';
 echo "";
 echo -e "\e[1;34m┌─[\e[1;32m$PROC\e[1;33m@\e[36mtermux\e[1;34m]\e[0m-\e[1;34m[\e[33m$(date +'%d %a %b')\e[1;34m]\e[0m-\e[1;34m[\e[33m$(date +'%l:%M %p')\e[1;34m]
@@ -106,7 +106,7 @@ fi
 	cd $HOME/T-Header
 	fi
 	
-	wget  https://github.com/abd12345/t-head.txt&> /dev/null ;
+	wget https://raw.githubusercontent.com/abd12345/T-Header/master/t-header.sh &> /dev/null ;
 
 	sleep 3
 	sed -i '/^TNAME=/d' $HOME/.zshrc
@@ -115,11 +115,11 @@ fi
 	sleep 3
 	rm t-head.txt
 	rm $HOME/.oh-my-zsh/themes/xiong-chiamiov-plus.zsh-theme
-	if [ -e $PWD/.remo773.zsh-theme ]; then
-	sed -e "s/\Remo773/$PROC/g" .remo773.zsh-theme > $HOME/.oh-my-zsh/themes/xiong-chiamiov-plus.zsh-theme
+	if [ -e $PWD/.abd.zsh-theme ]; then
+	sed -e "s/\abd/$PROC/g" .abd.zsh-theme > $HOME/.oh-my-zsh/themes/xiong-chiamiov-plus.zsh-theme
 else
 wget https://raw.githubusercontent.com/remo7777/T-Header/master/.remo773.zsh-theme &> /dev/null
-sed -e "s/\Remo773/$PROC/g" .remo773.zsh-theme > $HOME/.oh-my-zsh/themes/xiong-chiamiov-plus.zsh-theme
+sed -e "s/\abd/$PROC/g" .abd.zsh-theme > $HOME/.oh-my-zsh/themes/xiong-chiamiov-plus.zsh-theme
 fi
 source ~/.zshrc
 else
@@ -129,7 +129,7 @@ exit
 }
 
 clear;
-echo -e "\033[31m$(figlet -f Remo773 "T- Header")\e[0m"
+echo -e "\033[31m$(figlet -f abd "T- Header")\e[0m"
 echo -e "\e[1;32m
 +----------------------------------*/
 Remo773 : (\e[33m12.7.2018\e[32m)
@@ -224,7 +224,7 @@ else
 	exit
 fi
 exit 0
-ork..\033[0m"
+ike my work..\033[0m"
 	exit
 fi
 exit 0
